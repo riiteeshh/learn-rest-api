@@ -17,7 +17,7 @@ app.use((req,res,next)=>{
 app.use('/feed',feedRoutes);
 
 
-mongoose.connect('mongodb+srv://ritesh:R!t3sh_1@cluster0.brnspxa.mongodb.net/?retryWrites=true&w=majority').then( result=>{   app.listen(PORT,()=>{
+mongoose.connect('mongodb+srv://ritesh:<password>@cluster0.brnspxa.mongodb.net/?retryWrites=true&w=majority').then( result=>{   app.listen(PORT,()=>{
     console.log('listening at port'+PORT);
 })}
  
